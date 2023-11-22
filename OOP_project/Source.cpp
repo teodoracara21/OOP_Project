@@ -18,6 +18,7 @@ private:
     char Date;
     char Time;
     char NameOfEvent;
+    float Duration;
 public:
 
 };
