@@ -19,11 +19,23 @@ private:
     char Time;
     char NameOfEvent;
     float Duration;
+    int Number;
+    char EventType;
 public:
 
 };
 
-class Details {
-    char Type;
+enum EventType {
+    Movie,
+    FootballMatch,
+    MusicConcert,
+    Theatre,
+    Opera
+};
+
+class Member {
+    bool PremiumAccount;
+    int age;
+    char name;
 
 };
